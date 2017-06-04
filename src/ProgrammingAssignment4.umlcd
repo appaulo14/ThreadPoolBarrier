@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/0.9.0" xmi:id="_gOVY0PeqEeChPujbKHHHAw">
+  <modelElement href="ProgrammingAssignment4.uml#_gN0bcPeqEeChPujbKHHHAw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_glcRQPeqEeChPujbKHHHAw" sourceAnchor="105.0,0.0" targetAnchor="372.0,97.0" source="_glhw0PeqEeChPujbKHHHAw" target="_glQrEPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_ggFQIPeqEeChPujbKHHHAw"/>
+    <nameVisual xmi:id="_gletgPeqEeChPujbKHHHAw" text="">
+      <visualProperties xmi:id="_hgN3cfeqEeChPujbKHHHAw" position="-91.0,2.0"/>
+    </nameVisual>
+    <bendpoints xmi:id="_va3NYPeqEeChPujbKHHHAw" sourceY="-279" targetX="112"/>
+    <stereotypes xmi:id="_glfUkPeqEeChPujbKHHHAw" name="Reference">
+      <modelElement href="ProgrammingAssignment4.uml#_ggFQIveqEeChPujbKHHHAw"/>
+    </stereotypes>
+    <sourceRole xmi:id="_gletgfeqEeChPujbKHHHAw" name="">
+      <modelElement href="ProgrammingAssignment4.uml#_ggFQIfeqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_hgN3cPeqEeChPujbKHHHAw" position="2.0,-67.0"/>
+      <visibility xmi:id="_glhJwfeqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_glhJwPeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gletgveqEeChPujbKHHHAw" name="barrierForPool" navigable="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gfidkfeqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_hgN3cveqEeChPujbKHHHAw" position="21.0,41.0"/>
+      <stereotypes xmi:id="_Z-JYQPgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfjEoPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glhJw_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glhJwveqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gljmAPeqEeChPujbKHHHAw" sourceAnchor="0.0,97.0" targetAnchor="177.0,0.0" source="_glQrEPeqEeChPujbKHHHAw" target="_glvzQPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_ggDa8PeqEeChPujbKHHHAw"/>
+    <nameVisual xmi:id="_glq6wPeqEeChPujbKHHHAw" text="">
+      <visualProperties xmi:id="_hgHw1feqEeChPujbKHHHAw" position="-82.00000000000003,62.00000000000006"/>
+    </nameVisual>
+    <bendpoints xmi:id="_va30cPeqEeChPujbKHHHAw" sourceX="-214" targetY="-128"/>
+    <stereotypes xmi:id="_glsI4feqEeChPujbKHHHAw" name="Reference">
+      <modelElement href="ProgrammingAssignment4.uml#_ggECAPeqEeChPujbKHHHAw"/>
+    </stereotypes>
+    <sourceRole xmi:id="_glrh0PeqEeChPujbKHHHAw" name="">
+      <modelElement href="ProgrammingAssignment4.uml#_ggDa8feqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_hgHw1PeqEeChPujbKHHHAw" position="-30.0,2.0"/>
+      <visibility xmi:id="_glt-EfeqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_glt-EPeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_glsI4PeqEeChPujbKHHHAw" name="pool" navigable="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gfR-4PeqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_hgHw1veqEeChPujbKHHHAw" position="1.0,-87.0"/>
+      <stereotypes xmi:id="_Z-KmYPgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfSl8PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glt-E_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glt-EveqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gln3cPeqEeChPujbKHHHAw" sourceAnchor="0.0,68.0" targetAnchor="355.0,219.0" source="_glhw0PeqEeChPujbKHHHAw" target="_glvzQPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_ggECAfeqEeChPujbKHHHAw"/>
+    <nameVisual xmi:id="_glsI4veqEeChPujbKHHHAw" text="">
+      <visualProperties xmi:id="_hgN3dPeqEeChPujbKHHHAw" position="-40.0,-16.999999999999943"/>
+    </nameVisual>
+    <stereotypes xmi:id="_gltXAfeqEeChPujbKHHHAw" name="Reference">
+      <modelElement href="ProgrammingAssignment4.uml#_ggEpEPeqEeChPujbKHHHAw"/>
+    </stereotypes>
+    <sourceRole xmi:id="_glsv8PeqEeChPujbKHHHAw" name="">
+      <modelElement href="ProgrammingAssignment4.uml#_ggECAveqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_hgN3c_eqEeChPujbKHHHAw" position="-31.0,-37.0"/>
+      <visibility xmi:id="_glulIfeqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_glulIPeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gltXAPeqEeChPujbKHHHAw" name="pool" navigable="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gfh2gfeqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_hgN3dfeqEeChPujbKHHHAw" position="35.0,1.9999999999999432"/>
+      <stereotypes xmi:id="_Z-LNcPgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfidkPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glulI_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glulIveqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gl6LUPeqEeChPujbKHHHAw" sourceAnchor="0.0,75.0" targetAnchor="372.0,67.0" source="_gmFxgfeqEeChPujbKHHHAw" target="_glQrEPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_ggITcfeqEeChPujbKHHHAw"/>
+    <nameVisual xmi:id="_gmCHIPeqEeChPujbKHHHAw" text="">
+      <visualProperties xmi:id="_hgN3d_eqEeChPujbKHHHAw" position="-22.0,2.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_gmCHI_eqEeChPujbKHHHAw" name="Reference">
+      <modelElement href="ProgrammingAssignment4.uml#_ggI6gPeqEeChPujbKHHHAw"/>
+    </stereotypes>
+    <sourceRole xmi:id="_gmCHIfeqEeChPujbKHHHAw" name="">
+      <modelElement href="ProgrammingAssignment4.uml#_ggITcveqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_hgN3dveqEeChPujbKHHHAw" position="-30.0,2.0"/>
+      <visibility xmi:id="_gmFKcfeqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_gmFKcPeqEeChPujbKHHHAw" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gmCHIveqEeChPujbKHHHAw" name="barrier" navigable="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gfuq0feqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_hgT-EPeqEeChPujbKHHHAw" position="36.0,-36.999999999999986"/>
+      <stereotypes xmi:id="_rx0qIPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfvR4PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_gmFKc_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_gmFKcveqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gmBgEPeqEeChPujbKHHHAw" sourceAnchor="206.0,156.0" targetAnchor="81.0,0.0" dashed="true" subClass="_gmFxgfeqEeChPujbKHHHAw" superClass="_glSgQPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_gegi0PeqEeChPujbKHHHAw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_leBJwPeqEeChPujbKHHHAw" sourceAnchor="15.0,0.0" targetAnchor="48.0,44.0" subClass="_glyPgPeqEeChPujbKHHHAw" superClass="_leENEPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_ge910PeqEeChPujbKHHHAw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_leBJwfeqEeChPujbKHHHAw" sourceAnchor="355.0,15.0" targetAnchor="0.0,22.0" source="_glvzQPeqEeChPujbKHHHAw" target="_leENEPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_ggHsYfeqEeChPujbKHHHAw"/>
+    <nameVisual xmi:id="_leBw0PeqEeChPujbKHHHAw" text="">
+      <visualProperties xmi:id="_l9de0PeqEeChPujbKHHHAw" position="-37.0,-17.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_leCX4veqEeChPujbKHHHAw" name="Reference">
+      <modelElement href="ProgrammingAssignment4.uml#_ggITcPeqEeChPujbKHHHAw"/>
+    </stereotypes>
+    <sourceRole xmi:id="_leCX4PeqEeChPujbKHHHAw" name="">
+      <modelElement href="ProgrammingAssignment4.uml#_ggHsYveqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_l9cQsPeqEeChPujbKHHHAw" position="12.0,2.0"/>
+      <visibility xmi:id="_leC-8feqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_leC-8PeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_leCX4feqEeChPujbKHHHAw" name="t" navigable="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gfokMPeqEeChPujbKHHHAw"/>
+      <visualProperties xmi:id="_l9de0feqEeChPujbKHHHAw" position="-38.0,2.0"/>
+      <stereotypes xmi:id="_Z-O30PgaEeCPxZgiDOMmKg" name="Array">
+        <modelElement href="ProgrammingAssignment4.uml#_gfpLQPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Z-O30fgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfpLQfeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_leC-8_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_leC-8veqEeChPujbKHHHAw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_glZ1APeqEeChPujbKHHHAw" name="Phase">
+    <modelElement href="ProgrammingAssignment4.uml#_gcTjYPeqEeChPujbKHHHAw"/>
+    <visualProperties xmi:id="_glbqMPeqEeChPujbKHHHAw" position="40.0,40.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_glZ1AfeqEeChPujbKHHHAw" label="+"/>
+    <literals xmi:id="_glZ1AveqEeChPujbKHHHAw" name="initial">
+      <modelElement href="ProgrammingAssignment4.uml#_gcUKcPeqEeChPujbKHHHAw"/>
+    </literals>
+    <literals xmi:id="_glZ1A_eqEeChPujbKHHHAw" name="compute">
+      <modelElement href="ProgrammingAssignment4.uml#_gcUxgPeqEeChPujbKHHHAw"/>
+    </literals>
+    <literals xmi:id="_glZ1BPeqEeChPujbKHHHAw" name="copy">
+      <modelElement href="ProgrammingAssignment4.uml#_gcUxgfeqEeChPujbKHHHAw"/>
+    </literals>
+    <literals xmi:id="_glZ1BfeqEeChPujbKHHHAw" name="terminating">
+      <modelElement href="ProgrammingAssignment4.uml#_gcUxgveqEeChPujbKHHHAw"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_glhw0PeqEeChPujbKHHHAw" name="TPoolBarrier" associationsOut="_glcRQPeqEeChPujbKHHHAw _gln3cPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_gcWmsPeqEeChPujbKHHHAw"/>
+    <visualProperties xmi:id="_gliX4PeqEeChPujbKHHHAw" position="815.0,400.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_glhw0feqEeChPujbKHHHAw" label="+"/>
+    <attributes xmi:id="_glhw0veqEeChPujbKHHHAw" defaultValue="2" name="THREADSFORPOOL" staticAttribute="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gfdlEPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glhw0_eqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfezMPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glhw1PeqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_glhw1feqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glhw1veqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glhw1_eqEeChPujbKHHHAw" name="HEIGHT" staticAttribute="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gfezMfeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glhw2PeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfgBUPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glhw2feqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_glhw2veqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glhw2_eqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glhw3PeqEeChPujbKHHHAw" defaultValue="2" name="MAXITERS" staticAttribute="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gfgoYPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glhw3feqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfh2gPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glhw3veqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_glhw3_eqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glhw4PeqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glhw4feqEeChPujbKHHHAw" name="pool">
+      <modelElement href="ProgrammingAssignment4.uml#_gfh2gfeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glvMMPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfidkPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Z-y4gPgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfidkPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glhw4_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glhw5PeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glhw5feqEeChPujbKHHHAw" name="ThreadPool">
+        <modelElement href="ProgrammingAssignment4.uml#_gcjbAPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glhw5veqEeChPujbKHHHAw" name="barrierForPool">
+      <modelElement href="ProgrammingAssignment4.uml#_gfidkfeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glhJxPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfjEoPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Z-uAAPgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfjEoPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glhw6PeqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glhw6feqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glhw6veqEeChPujbKHHHAw" name="BarrierForPool">
+        <modelElement href="ProgrammingAssignment4.uml#_gb3egPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_glhw6_eqEeChPujbKHHHAw" name="TPoolBarrier">
+      <modelElement href="ProgrammingAssignment4.uml#_gcZqAPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glhw7PeqEeChPujbKHHHAw" keyword="create"/>
+      <visibility xmi:id="_glhw7feqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glhw7veqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gcaREveqEeChPujbKHHHAw"/>
+        <type xmi:id="_glhw7_eqEeChPujbKHHHAw" name="TPoolBarrier">
+          <modelElement href="ProgrammingAssignment4.uml#_gcWmsPeqEeChPujbKHHHAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_glhw8PeqEeChPujbKHHHAw" name="main" staticOperation="true">
+      <modelElement href="ProgrammingAssignment4.uml#_gca4IPeqEeChPujbKHHHAw"/>
+      <visibility xmi:id="_glhw8feqEeChPujbKHHHAw" label="+"/>
+      <parameters xmi:id="_glhw8veqEeChPujbKHHHAw" name="args">
+        <modelElement href="ProgrammingAssignment4.uml#_gcbfMPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glhw8_eqEeChPujbKHHHAw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_glSgQPeqEeChPujbKHHHAw" name="GenericJob" subclassedBy="_gmBgEPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_gcP5APeqEeChPujbKHHHAw"/>
+    <visualProperties xmi:id="_glZN8PeqEeChPujbKHHHAw" position="1127.0,206.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_glSgQfeqEeChPujbKHHHAw" label="+"/>
+    <attributes xmi:id="_glSgQveqEeChPujbKHHHAw" name="phase">
+      <modelElement href="ProgrammingAssignment4.uml#_gcRuMPeqEeChPujbKHHHAw"/>
+      <visibility xmi:id="_glSgQ_eqEeChPujbKHHHAw" label="+"/>
+      <cardinality xmi:id="_glSgRPeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glSgRfeqEeChPujbKHHHAw" name="Phase">
+        <modelElement href="ProgrammingAssignment4.uml#_gcTjYPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_glSgRveqEeChPujbKHHHAw" name="execute">
+      <modelElement href="ProgrammingAssignment4.uml#_gcQgEPeqEeChPujbKHHHAw"/>
+      <visibility xmi:id="_glSgR_eqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glSgSPeqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gcRHIPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glSgSfeqEeChPujbKHHHAw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_glQrEPeqEeChPujbKHHHAw" name="BarrierForPool" associationsIn="_glcRQPeqEeChPujbKHHHAw _gl6LUPeqEeChPujbKHHHAw" associationsOut="_gljmAPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_gb3egPeqEeChPujbKHHHAw"/>
+    <visualProperties xmi:id="_glRSIPeqEeChPujbKHHHAw" position="436.0,24.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_glQrEfeqEeChPujbKHHHAw" label="~"/>
+    <attributes xmi:id="_glQrEveqEeChPujbKHHHAw" name="arrived">
+      <modelElement href="ProgrammingAssignment4.uml#_gfO7kPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glQrE_eqEeChPujbKHHHAw" name="Array">
+        <modelElement href="ProgrammingAssignment4.uml#_gfPiofeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_glQrFPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfQJsPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glQrFfeqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glQrFveqEeChPujbKHHHAw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_glQrF_eqEeChPujbKHHHAw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glQrGPeqEeChPujbKHHHAw" name="size">
+      <modelElement href="ProgrammingAssignment4.uml#_gfQwwPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glQrGfeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfRX0PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glQrGveqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glQrG_eqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glQrHPeqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glQrHfeqEeChPujbKHHHAw" name="pool">
+      <modelElement href="ProgrammingAssignment4.uml#_gfR-4PeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glt-FPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfSl8PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Z-wcQPgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfSl8PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glQrH_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glQrIPeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glQrIfeqEeChPujbKHHHAw" name="ThreadPool">
+        <modelElement href="ProgrammingAssignment4.uml#_gcjbAPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glQrIveqEeChPujbKHHHAw" name="times">
+      <modelElement href="ProgrammingAssignment4.uml#_gfTNAPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glQrI_eqEeChPujbKHHHAw" name="Array">
+        <modelElement href="ProgrammingAssignment4.uml#_gfT0EPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_glQrJPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfUbIPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glQrJfeqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glQrJveqEeChPujbKHHHAw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_glQrJ_eqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glQrKPeqEeChPujbKHHHAw" name="previous_times">
+      <modelElement href="ProgrammingAssignment4.uml#_gfVCMPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glQrKfeqEeChPujbKHHHAw" name="Array">
+        <modelElement href="ProgrammingAssignment4.uml#_gfVCMveqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_glQrKveqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfVpQPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glQrK_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glQrLPeqEeChPujbKHHHAw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_glQrLfeqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glQrLveqEeChPujbKHHHAw" name="phases">
+      <modelElement href="ProgrammingAssignment4.uml#_gfWQUPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glQrL_eqEeChPujbKHHHAw" name="Array">
+        <modelElement href="ProgrammingAssignment4.uml#_gfW3YfeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_glQrMPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfXecPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glQrMfeqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glQrMveqEeChPujbKHHHAw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_glQrM_eqEeChPujbKHHHAw" name="Phase">
+        <modelElement href="ProgrammingAssignment4.uml#_gcTjYPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glQrNPeqEeChPujbKHHHAw" name="previous_phases">
+      <modelElement href="ProgrammingAssignment4.uml#_gfYFgPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glQrNfeqEeChPujbKHHHAw" name="Array">
+        <modelElement href="ProgrammingAssignment4.uml#_gfYFgveqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_glQrNveqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfYskPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glQrN_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glQrOPeqEeChPujbKHHHAw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_glQrOfeqEeChPujbKHHHAw" name="Phase">
+        <modelElement href="ProgrammingAssignment4.uml#_gcTjYPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_glQrOveqEeChPujbKHHHAw" name="BarrierForPool">
+      <modelElement href="ProgrammingAssignment4.uml#_gd9wQPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glQrO_eqEeChPujbKHHHAw" keyword="create"/>
+      <visibility xmi:id="_glQrPPeqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glQrPfeqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gd-XUveqEeChPujbKHHHAw"/>
+        <type xmi:id="_glQrPveqEeChPujbKHHHAw" name="BarrierForPool">
+          <modelElement href="ProgrammingAssignment4.uml#_gb3egPeqEeChPujbKHHHAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_glQrP_eqEeChPujbKHHHAw" name="size">
+        <modelElement href="ProgrammingAssignment4.uml#_gd9wQfeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glQrQPeqEeChPujbKHHHAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_glQrQfeqEeChPujbKHHHAw" name="pool">
+        <modelElement href="ProgrammingAssignment4.uml#_gd9wQveqEeChPujbKHHHAw"/>
+        <type xmi:id="_glQrQveqEeChPujbKHHHAw" name="ThreadPool">
+          <modelElement href="ProgrammingAssignment4.uml#_gcjbAPeqEeChPujbKHHHAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_glQrQ_eqEeChPujbKHHHAw" name="pass">
+      <modelElement href="ProgrammingAssignment4.uml#_geAMgPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glQrRPeqEeChPujbKHHHAw" keyword="synchronized"/>
+      <stereotypes xmi:id="_glQrRfeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_geBaoPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glQrRveqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glQrR_eqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_geAzkveqEeChPujbKHHHAw"/>
+        <type xmi:id="_glQrSPeqEeChPujbKHHHAw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_glQrSfeqEeChPujbKHHHAw" name="id">
+        <modelElement href="ProgrammingAssignment4.uml#_geAMgfeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glQrSveqEeChPujbKHHHAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_glQrS_eqEeChPujbKHHHAw" name="job">
+        <modelElement href="ProgrammingAssignment4.uml#_geAMgveqEeChPujbKHHHAw"/>
+        <type xmi:id="_glQrTPeqEeChPujbKHHHAw" name="GenericJob">
+          <modelElement href="ProgrammingAssignment4.uml#_gcP5APeqEeChPujbKHHHAw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_glQrTfeqEeChPujbKHHHAw" name="iters">
+        <modelElement href="ProgrammingAssignment4.uml#_geAMg_eqEeChPujbKHHHAw"/>
+        <type xmi:id="_glQrTveqEeChPujbKHHHAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_glvzQPeqEeChPujbKHHHAw" name="ThreadPool" associationsIn="_gljmAPeqEeChPujbKHHHAw _gln3cPeqEeChPujbKHHHAw" associationsOut="_leBJwfeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_gcjbAPeqEeChPujbKHHHAw"/>
+    <visualProperties xmi:id="_glwaUPeqEeChPujbKHHHAw" position="45.0,249.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_glvzQfeqEeChPujbKHHHAw" label="+"/>
+    <attributes xmi:id="_glvzQveqEeChPujbKHHHAw" defaultValue="new LinkedList&lt;GenericJob>()" name="jobQueue">
+      <modelElement href="ProgrammingAssignment4.uml#_gfkSwPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glvzQ_eqEeChPujbKHHHAw" name="Generics">
+        <modelElement href="ProgrammingAssignment4.uml#_gfk50PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_glvzRPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfmH8PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glvzRfeqEeChPujbKHHHAw" label="-"/>
+      <cardinality xmi:id="_glvzRveqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glvzR_eqEeChPujbKHHHAw" name="LinkedList">
+        <modelElement href="ProgrammingAssignment4.uml#_geOO8PeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glvzSPeqEeChPujbKHHHAw" defaultValue="new LinkedList&lt;GenericJob>()" name="waitQueue">
+      <modelElement href="ProgrammingAssignment4.uml#_gfmH8feqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glvzSfeqEeChPujbKHHHAw" name="Generics">
+        <modelElement href="ProgrammingAssignment4.uml#_gfmvAPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_glvzSveqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfnWEfeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glvzS_eqEeChPujbKHHHAw" label="-"/>
+      <cardinality xmi:id="_glvzTPeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glvzTfeqEeChPujbKHHHAw" name="LinkedList">
+        <modelElement href="ProgrammingAssignment4.uml#_geOO8PeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glvzU_eqEeChPujbKHHHAw" name="t">
+      <modelElement href="ProgrammingAssignment4.uml#_gfokMPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_leC-9PeqEeChPujbKHHHAw" name="Array">
+        <modelElement href="ProgrammingAssignment4.uml#_gfpLQPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_leC-9feqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfpLQfeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Z-4_IPgaEeCPxZgiDOMmKg" name="Array">
+        <modelElement href="ProgrammingAssignment4.uml#_gfpLQPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Z-5mMPgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfpLQfeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glvzVveqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glvzV_eqEeChPujbKHHHAw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_glvzWPeqEeChPujbKHHHAw" name="Thread">
+        <modelElement href="ProgrammingAssignment4.uml#_ge6LcPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_glvzWfeqEeChPujbKHHHAw" name="numThreads">
+      <modelElement href="ProgrammingAssignment4.uml#_gfpyUPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glvzWveqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfpyUfeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glvzW_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_glvzXPeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glvzXfeqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_glvzXveqEeChPujbKHHHAw" name="ThreadPool">
+      <modelElement href="ProgrammingAssignment4.uml#_gcmeUPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glvzX_eqEeChPujbKHHHAw" keyword="create"/>
+      <visibility xmi:id="_glvzYPeqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glvzYfeqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gcnscPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glvzYveqEeChPujbKHHHAw" name="ThreadPool">
+          <modelElement href="ProgrammingAssignment4.uml#_gcjbAPeqEeChPujbKHHHAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_glvzY_eqEeChPujbKHHHAw" name="numThreads">
+        <modelElement href="ProgrammingAssignment4.uml#_gcmeUfeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glvzZPeqEeChPujbKHHHAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_glvzZfeqEeChPujbKHHHAw" name="activate">
+      <modelElement href="ProgrammingAssignment4.uml#_gcnscfeqEeChPujbKHHHAw"/>
+      <visibility xmi:id="_glvzZveqEeChPujbKHHHAw" label="+"/>
+    </operations>
+    <operations xmi:id="_glvzZ_eqEeChPujbKHHHAw" name="jobQueueEmpty">
+      <modelElement href="ProgrammingAssignment4.uml#_gco6kPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glvzaPeqEeChPujbKHHHAw" keyword="synchronized"/>
+      <visibility xmi:id="_glvzafeqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glvzaveqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gcphoPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glvza_eqEeChPujbKHHHAw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_glvzbPeqEeChPujbKHHHAw" name="waitQueueEmpty">
+      <modelElement href="ProgrammingAssignment4.uml#_gcphofeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glvzbfeqEeChPujbKHHHAw" keyword="synchronized"/>
+      <visibility xmi:id="_glvzbveqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glvzb_eqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gcqIsveqEeChPujbKHHHAw"/>
+        <type xmi:id="_glvzcPeqEeChPujbKHHHAw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_glvzcfeqEeChPujbKHHHAw" name="getJobFromWaitQueue">
+      <modelElement href="ProgrammingAssignment4.uml#_gcrW0PeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glvzcveqEeChPujbKHHHAw" keyword="synchronized"/>
+      <visibility xmi:id="_glvzc_eqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glvzdPeqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_geU8oPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glvzdfeqEeChPujbKHHHAw" name="GenericJob">
+          <modelElement href="ProgrammingAssignment4.uml#_gcP5APeqEeChPujbKHHHAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_glvzdveqEeChPujbKHHHAw" name="getJob">
+      <modelElement href="ProgrammingAssignment4.uml#_gcsk8PeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glvzd_eqEeChPujbKHHHAw" keyword="synchronized"/>
+      <visibility xmi:id="_glvzePeqEeChPujbKHHHAw" label="-"/>
+      <outParameters xmi:id="_glvzefeqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_geU8ofeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glvzeveqEeChPujbKHHHAw" name="GenericJob">
+          <modelElement href="ProgrammingAssignment4.uml#_gcP5APeqEeChPujbKHHHAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_glvze_eqEeChPujbKHHHAw" name="addJobToJobQueue">
+      <modelElement href="ProgrammingAssignment4.uml#_geR5UPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glvzfPeqEeChPujbKHHHAw" keyword="synchronized"/>
+      <visibility xmi:id="_glvzffeqEeChPujbKHHHAw" label="+"/>
+      <parameters xmi:id="_glvzfveqEeChPujbKHHHAw" name="job">
+        <modelElement href="ProgrammingAssignment4.uml#_geSgYPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glvzf_eqEeChPujbKHHHAw" name="GenericJob">
+          <modelElement href="ProgrammingAssignment4.uml#_gcP5APeqEeChPujbKHHHAw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_glvzgPeqEeChPujbKHHHAw" name="addJobToWaitQueue">
+      <modelElement href="ProgrammingAssignment4.uml#_geTugPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glvzgfeqEeChPujbKHHHAw" keyword="synchronized"/>
+      <visibility xmi:id="_glvzgveqEeChPujbKHHHAw" label="+"/>
+      <parameters xmi:id="_glvzg_eqEeChPujbKHHHAw" name="job">
+        <modelElement href="ProgrammingAssignment4.uml#_geTugfeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glvzhPeqEeChPujbKHHHAw" name="GenericJob">
+          <modelElement href="ProgrammingAssignment4.uml#_gcP5APeqEeChPujbKHHHAw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gmFxgfeqEeChPujbKHHHAw" name="Work" associationsOut="_gl6LUPeqEeChPujbKHHHAw" generalizations="_gmBgEPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_gdEYYPeqEeChPujbKHHHAw"/>
+    <visualProperties xmi:id="_gmG_oPeqEeChPujbKHHHAw" position="1002.0,16.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gmFxgveqEeChPujbKHHHAw" label="~"/>
+    <attributes xmi:id="_gmFxg_eqEeChPujbKHHHAw" name="id">
+      <modelElement href="ProgrammingAssignment4.uml#_gftcsPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_gmFxhPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfuDwPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_gmFxhfeqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_gmFxhveqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_gmFxh_eqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gmFxiPeqEeChPujbKHHHAw" name="pc">
+      <modelElement href="ProgrammingAssignment4.uml#_gfuDwfeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_gmFxifeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfuq0PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_gmFxiveqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_gmFxi_eqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_gmFxjPeqEeChPujbKHHHAw" name="Phase">
+        <modelElement href="ProgrammingAssignment4.uml#_gcTjYPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gmFxjfeqEeChPujbKHHHAw" name="barrier">
+      <modelElement href="ProgrammingAssignment4.uml#_gfuq0feqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_Z-170PgaEeCPxZgiDOMmKg" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfvR4PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_gmFxj_eqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_gmFxkPeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_gmFxkfeqEeChPujbKHHHAw" name="BarrierForPool">
+        <modelElement href="ProgrammingAssignment4.uml#_gb3egPeqEeChPujbKHHHAw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gmFxkveqEeChPujbKHHHAw" defaultValue="0" name="iters">
+      <modelElement href="ProgrammingAssignment4.uml#_gfvR4feqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_gmFxk_eqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfv48feqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_gmFxlPeqEeChPujbKHHHAw" label="~"/>
+      <cardinality xmi:id="_gmFxlfeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_gmFxlveqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gmFxl_eqEeChPujbKHHHAw" name="getPhase">
+      <modelElement href="ProgrammingAssignment4.uml#_gdICwPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_gmFxmPeqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gdJQ4PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gmFxmfeqEeChPujbKHHHAw" name="Annotations">
+        <modelElement href="ProgrammingAssignment4.uml#_gdJ38PeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_gmFxmveqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_gmFxm_eqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gekNMPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_gmFxnPeqEeChPujbKHHHAw" name="Phase">
+          <modelElement href="ProgrammingAssignment4.uml#_gcTjYPeqEeChPujbKHHHAw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gmFxnfeqEeChPujbKHHHAw" name="execute">
+      <modelElement href="ProgrammingAssignment4.uml#_gdKfAPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_gmFxnveqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gdLGEfeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gmFxn_eqEeChPujbKHHHAw" name="Annotations">
+        <modelElement href="ProgrammingAssignment4.uml#_gdMUMPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_gmFxoPeqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_gmGYkPeqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gdLGEPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_gmGYkfeqEeChPujbKHHHAw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gmGYkveqEeChPujbKHHHAw" name="Work">
+      <modelElement href="ProgrammingAssignment4.uml#_geiYAPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_gmGYk_eqEeChPujbKHHHAw" keyword="create"/>
+      <visibility xmi:id="_gmGYlPeqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_gmGYlfeqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gejmIPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_gmGYlveqEeChPujbKHHHAw" name="Work">
+          <modelElement href="ProgrammingAssignment4.uml#_gdEYYPeqEeChPujbKHHHAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gmGYl_eqEeChPujbKHHHAw" name="id">
+        <modelElement href="ProgrammingAssignment4.uml#_geiYAfeqEeChPujbKHHHAw"/>
+        <type xmi:id="_gmGYmPeqEeChPujbKHHHAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gmGYmfeqEeChPujbKHHHAw" name="barrier">
+        <modelElement href="ProgrammingAssignment4.uml#_gei_EPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_gmGYmveqEeChPujbKHHHAw" name="BarrierForPool">
+          <modelElement href="ProgrammingAssignment4.uml#_gb3egPeqEeChPujbKHHHAw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_leENEPeqEeChPujbKHHHAw" name="Thread" associationsIn="_leBJwfeqEeChPujbKHHHAw" subclassedBy="_leBJwPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_ge6LcPeqEeChPujbKHHHAw"/>
+    <visualProperties xmi:id="_leENEfeqEeChPujbKHHHAw" position="497.0,242.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_leENEveqEeChPujbKHHHAw" name="Reference">
+      <modelElement href="ProgrammingAssignment4.uml#_ge6ygPeqEeChPujbKHHHAw"/>
+    </stereotypes>
+    <visibility xmi:id="_leENE_eqEeChPujbKHHHAw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_glyPgPeqEeChPujbKHHHAw" name="PoolThread" generalizations="_leBJwPeqEeChPujbKHHHAw">
+    <modelElement href="ProgrammingAssignment4.uml#_gctzEPeqEeChPujbKHHHAw"/>
+    <visualProperties xmi:id="_gl5kQPeqEeChPujbKHHHAw" position="530.0,319.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_glyPgfeqEeChPujbKHHHAw" label="-"/>
+    <attributes xmi:id="_glyPgveqEeChPujbKHHHAw" defaultValue="0" name="i">
+      <modelElement href="ProgrammingAssignment4.uml#_gfqZYPeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glyPg_eqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gfrAcfeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glyPhPeqEeChPujbKHHHAw" label="-"/>
+      <cardinality xmi:id="_glyPhfeqEeChPujbKHHHAw" label="1" max="1" min="1"/>
+      <type xmi:id="_glyPhveqEeChPujbKHHHAw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_glyPh_eqEeChPujbKHHHAw" name="PoolThread">
+      <modelElement href="ProgrammingAssignment4.uml#_gcvoQPeqEeChPujbKHHHAw"/>
+      <keywords xmi:id="_glyPiPeqEeChPujbKHHHAw" keyword="create"/>
+      <visibility xmi:id="_glyPifeqEeChPujbKHHHAw" label="+"/>
+      <outParameters xmi:id="_glyPiveqEeChPujbKHHHAw">
+        <modelElement href="ProgrammingAssignment4.uml#_gcw2YPeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glyPi_eqEeChPujbKHHHAw" name="PoolThread">
+          <modelElement href="ProgrammingAssignment4.uml#_gctzEPeqEeChPujbKHHHAw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_glyPjPeqEeChPujbKHHHAw" name="i">
+        <modelElement href="ProgrammingAssignment4.uml#_gcvoQfeqEeChPujbKHHHAw"/>
+        <type xmi:id="_glyPjfeqEeChPujbKHHHAw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_glyPjveqEeChPujbKHHHAw" name="run">
+      <modelElement href="ProgrammingAssignment4.uml#_gcw2YfeqEeChPujbKHHHAw"/>
+      <stereotypes xmi:id="_glyPj_eqEeChPujbKHHHAw" name="LegacyStyledElement">
+        <modelElement href="ProgrammingAssignment4.uml#_gcxdcPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_glyPkPeqEeChPujbKHHHAw" name="Annotations">
+        <modelElement href="ProgrammingAssignment4.uml#_gcyEgPeqEeChPujbKHHHAw"/>
+      </stereotypes>
+      <visibility xmi:id="_glyPkfeqEeChPujbKHHHAw" label="+"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

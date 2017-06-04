@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_gN0bcPeqEeChPujbKHHHAw" name="ProgrammingAssignment4">
+    <eAnnotations xmi:id="_gOQgUPeqEeChPujbKHHHAw" source="http://www.yatta-solutions.com/umllab/codegen/codegenDirectory">
+      <details xmi:id="_gOQgUfeqEeChPujbKHHHAw" key="codegenDirectory" value="/ProgrammingAssignment4/src"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_ggPBIPeqEeChPujbKHHHAw" source="com.yattasolutions.codegen.RoundTripInformation">
+      <details xmi:id="_ggPoMPeqEeChPujbKHHHAw" key="AssociatedSourceCode" value="/ProgrammingAssignment4/src/BarrierForPool.java;3937452014/1;/ProgrammingAssignment4/src/GenericJob.java;1581072724/1;/ProgrammingAssignment4/src/Phase.java;3742705101/1;/ProgrammingAssignment4/src/TPoolBarrier.java;3303167650/1;/ProgrammingAssignment4/src/ThreadPool.java;2420564210/1;/ProgrammingAssignment4/src/Work.java;3383133718/1;"/>
+    </eAnnotations>
+    <elementImport xmi:id="_gb3egfeqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_gb3egveqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_gb3eg_eqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_gb3ehPeqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_gb3ehfeqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_gb3ehveqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_gb3eh_eqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_gb3eiPeqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_gb9lIPeqEeChPujbKHHHAw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_gaJnQPeqEeChPujbKHHHAw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_gaJnQfeqEeChPujbKHHHAw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_geOO8PeqEeChPujbKHHHAw" name="LinkedList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ge4WQPeqEeChPujbKHHHAw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ge4WQfeqEeChPujbKHHHAw" name="Object"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ge6LcPeqEeChPujbKHHHAw" name="Thread"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gb3egPeqEeChPujbKHHHAw" name="BarrierForPool" visibility="package">
+      <ownedAttribute xmi:id="_gfO7kPeqEeChPujbKHHHAw" name="arrived" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gfPioPeqEeChPujbKHHHAw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfQwwPeqEeChPujbKHHHAw" name="size" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfR-4PeqEeChPujbKHHHAw" name="pool" visibility="package" type="_gcjbAPeqEeChPujbKHHHAw" association="_ggDa8PeqEeChPujbKHHHAw"/>
+      <ownedAttribute xmi:id="_gfTNAPeqEeChPujbKHHHAw" name="times" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gfTNAfeqEeChPujbKHHHAw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfVCMPeqEeChPujbKHHHAw" name="previous_times" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gfVCMfeqEeChPujbKHHHAw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfWQUPeqEeChPujbKHHHAw" name="phases" visibility="package" type="_gcTjYPeqEeChPujbKHHHAw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gfW3YPeqEeChPujbKHHHAw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfYFgPeqEeChPujbKHHHAw" name="previous_phases" visibility="package" type="_gcTjYPeqEeChPujbKHHHAw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gfYFgfeqEeChPujbKHHHAw" value="*"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gfy8QPeqEeChPujbKHHHAw" name="BarrierForPool" specification="_gd9wQPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gfy8QfeqEeChPujbKHHHAw" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_gfy8QveqEeChPujbKHHHAw" name="pool" type="_gcjbAPeqEeChPujbKHHHAw"/>
+        <ownedParameter xmi:id="_gfy8Q_eqEeChPujbKHHHAw" type="_gb3egPeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.size = size;&#xD;
+     this.pool = pool;&#xD;
+     arrived = new boolean[size];&#xD;
+     times = new int[size];&#xD;
+     previous_times = new int[size];&#xD;
+     phases = new Phase[size];&#xD;
+     previous_phases = new Phase[size];&#xD;
+     for (int i = 0; i &lt; size; i++) {&#xD;
+         arrived[i] = false;&#xD;
+         times[i] = 0;&#xD;
+         phases[i] = Phase.initial;&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gfzjUPeqEeChPujbKHHHAw" name="pass" specification="_geAMgPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gfzjUfeqEeChPujbKHHHAw" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_gfzjUveqEeChPujbKHHHAw" name="job" type="_gcP5APeqEeChPujbKHHHAw"/>
+        <ownedParameter xmi:id="_gfzjU_eqEeChPujbKHHHAw" name="iters">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_gfzjVPeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>previous_phases[id] = phases[id];&#xD;
+     previous_times[id] = times[id];&#xD;
+     phases[id] = job.getPhase();&#xD;
+     times[id] = iters;&#xD;
+     arrived[id] = true;&#xD;
+     boolean go = true;&#xD;
+     for (int i = 0; i &lt; size; i++) {&#xD;
+         if (!arrived[i]) {&#xD;
+             go = false;&#xD;
+             break;&#xD;
+         }&#xD;
+     }&#xD;
+     if (go) {&#xD;
+         // INVARIANT: Assert that all jobs are on the same iteration&#xD;
+         int currentIteration = times[0];&#xD;
+         for (int t : times) {&#xD;
+             assert currentIteration == t : &quot;Not all jobs on same iteration&quot;;&#xD;
+         }&#xD;
+         // INVARIANT: Assert that all jobs are in the same phase&#xD;
+         Phase currentPhase = phases[0];&#xD;
+         for (Phase phase : phases) {&#xD;
+             assert currentPhase == phase : &quot;Not all jobs on same phase of the iteration&quot;;&#xD;
+         }&#xD;
+         // INVARIANT: If copy operation just completed, assert that a&#xD;
+         // compute operation happened previously&#xD;
+         if (phases[id] == Phase.copy) {&#xD;
+             for (Phase previous_phase : previous_phases) {&#xD;
+                 assert previous_phase == Phase.compute : &quot;Not all jobs computed before they copied&quot;;&#xD;
+             }&#xD;
+         } // INVARIANT: If compute operation just completed and the initial&#xD;
+           // phase did not happen previously, assert that a copy&#xD;
+           // operation happened previously and that the iteration is one&#xD;
+           // less than it is now.&#xD;
+         else if (phases[id] == Phase.compute&#xD;
+                 &amp;&amp; previous_phases[id] != Phase.initial) {&#xD;
+             for (int i = 0; i &lt; size; i++) {&#xD;
+                 assert (previous_phases[i] == Phase.copy &amp;&amp; previous_times[i] == times[i] - 1) : &quot;Not all jobs copied and then incremented by 1&quot;;&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+         for (int i = 0; i &lt; size; i++) {&#xD;
+             arrived[i] = false;&#xD;
+         }&#xD;
+&#xD;
+         while (!pool.waitQueueEmpty()) {&#xD;
+             pool.addJobToJobQueue(pool.getJobFromWaitQueue());&#xD;
+         }&#xD;
+         return true;&#xD;
+     }&#xD;
+     else {&#xD;
+         pool.addJobToWaitQueue(job);&#xD;
+         return false;&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_gd9wQPeqEeChPujbKHHHAw" name="BarrierForPool" method="_gfy8QPeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_gd-XUPeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_gd-XUfeqEeChPujbKHHHAw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_gd9wQfeqEeChPujbKHHHAw" name="size">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_gd9wQveqEeChPujbKHHHAw" name="pool" type="_gcjbAPeqEeChPujbKHHHAw"/>
+        <ownedParameter xmi:id="_gd-XUveqEeChPujbKHHHAw" type="_gb3egPeqEeChPujbKHHHAw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_geAMgPeqEeChPujbKHHHAw" name="pass" method="_gfzjUPeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_geAzkPeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_geAzkfeqEeChPujbKHHHAw" key="synchronized"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_geAMgfeqEeChPujbKHHHAw" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_geAMgveqEeChPujbKHHHAw" name="job" type="_gcP5APeqEeChPujbKHHHAw"/>
+        <ownedParameter xmi:id="_geAMg_eqEeChPujbKHHHAw" name="iters">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_geAzkveqEeChPujbKHHHAw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_gcP5APeqEeChPujbKHHHAw" name="GenericJob">
+      <ownedAttribute xmi:id="_gcRuMPeqEeChPujbKHHHAw" name="phase" type="_gcTjYPeqEeChPujbKHHHAw" isReadOnly="true"/>
+      <ownedOperation xmi:id="_gcQgEPeqEeChPujbKHHHAw" name="execute">
+        <ownedParameter xmi:id="_gcRHIPeqEeChPujbKHHHAw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_gcTjYPeqEeChPujbKHHHAw" name="Phase">
+      <ownedLiteral xmi:id="_gcUKcPeqEeChPujbKHHHAw" name="initial"/>
+      <ownedLiteral xmi:id="_gcUxgPeqEeChPujbKHHHAw" name="compute"/>
+      <ownedLiteral xmi:id="_gcUxgfeqEeChPujbKHHHAw" name="copy"/>
+      <ownedLiteral xmi:id="_gcUxgveqEeChPujbKHHHAw" name="terminating"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gcWmsPeqEeChPujbKHHHAw" name="TPoolBarrier">
+      <ownedAttribute xmi:id="_gfdlEPeqEeChPujbKHHHAw" name="THREADSFORPOOL" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gfeMIPeqEeChPujbKHHHAw" value="2"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfezMfeqEeChPujbKHHHAw" name="HEIGHT" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfgoYPeqEeChPujbKHHHAw" name="MAXITERS" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gfhPcPeqEeChPujbKHHHAw" value="2"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfh2gfeqEeChPujbKHHHAw" name="pool" visibility="package" type="_gcjbAPeqEeChPujbKHHHAw" association="_ggECAfeqEeChPujbKHHHAw"/>
+      <ownedAttribute xmi:id="_gfidkfeqEeChPujbKHHHAw" name="barrierForPool" visibility="package" type="_gb3egPeqEeChPujbKHHHAw" association="_ggFQIPeqEeChPujbKHHHAw"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf0xcPeqEeChPujbKHHHAw" name="TPoolBarrier" specification="_gcZqAPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf0xcfeqEeChPujbKHHHAw" type="_gcWmsPeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>HEIGHT = 3;&#xD;
+     pool = new ThreadPool(THREADSFORPOOL);&#xD;
+     barrierForPool = new BarrierForPool(HEIGHT, pool);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf1YgPeqEeChPujbKHHHAw" name="main" specification="_gca4IPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf1YgfeqEeChPujbKHHHAw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gf1YgveqEeChPujbKHHHAw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>TPoolBarrier tPoolBarrier = new TPoolBarrier();&#xD;
+     Work[] work = new Work[HEIGHT];&#xD;
+     for (int i = 0; i &lt; HEIGHT; i++) {&#xD;
+         work[i] = new Work(i, tPoolBarrier.barrierForPool);&#xD;
+         tPoolBarrier.pool.addJobToJobQueue(work[i]);&#xD;
+     }&#xD;
+     tPoolBarrier.pool.activate();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_gcZqAPeqEeChPujbKHHHAw" name="TPoolBarrier" method="_gf0xcPeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_gcaREPeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_gcaREfeqEeChPujbKHHHAw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_gcaREveqEeChPujbKHHHAw" type="_gcWmsPeqEeChPujbKHHHAw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_gca4IPeqEeChPujbKHHHAw" name="main" isStatic="true" method="_gf1YgPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gcbfMPeqEeChPujbKHHHAw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gcbfMfeqEeChPujbKHHHAw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gcjbAPeqEeChPujbKHHHAw" name="ThreadPool">
+      <ownedAttribute xmi:id="_gfkSwPeqEeChPujbKHHHAw" name="jobQueue" visibility="private" isLeaf="true" type="_geOO8PeqEeChPujbKHHHAw" isReadOnly="true" association="_ggF3MPeqEeChPujbKHHHAw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gflg4PeqEeChPujbKHHHAw" value="new LinkedList&lt;GenericJob>()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfmH8feqEeChPujbKHHHAw" name="waitQueue" visibility="private" isLeaf="true" type="_geOO8PeqEeChPujbKHHHAw" isReadOnly="true" association="_ggGeQfeqEeChPujbKHHHAw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gfnWEPeqEeChPujbKHHHAw" value="new LinkedList&lt;GenericJob>()"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfokMPeqEeChPujbKHHHAw" name="t" visibility="package" type="_ge6LcPeqEeChPujbKHHHAw" association="_ggHsYfeqEeChPujbKHHHAw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gfokMfeqEeChPujbKHHHAw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfpyUPeqEeChPujbKHHHAw" name="numThreads" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf2moPeqEeChPujbKHHHAw" name="ThreadPool" specification="_gcmeUPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf2mofeqEeChPujbKHHHAw" name="numThreads">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_gf2moveqEeChPujbKHHHAw" type="_gcjbAPeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.numThreads = numThreads;&#xD;
+     t = new Thread[numThreads];&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf2mo_eqEeChPujbKHHHAw" name="activate" specification="_gcnscfeqEeChPujbKHHHAw">
+        <language>java</language>
+        <body>for (int i = 0; i &lt; numThreads; i++) {&#xD;
+         t[i] = new PoolThread(i);&#xD;
+         t[i].start();&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf2mpPeqEeChPujbKHHHAw" name="jobQueueEmpty" specification="_gco6kPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf2mpfeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (jobQueue.isEmpty());&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf3NsPeqEeChPujbKHHHAw" name="waitQueueEmpty" specification="_gcphofeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf3NsfeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (waitQueue.isEmpty());&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf3NsveqEeChPujbKHHHAw" name="addJobToJobQueue" specification="_geR5UPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf3Ns_eqEeChPujbKHHHAw" name="job" type="_gcP5APeqEeChPujbKHHHAw"/>
+        <language>java</language>
+        <body>jobQueue.add(job);&#xD;
+     notify();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf30wPeqEeChPujbKHHHAw" name="addJobToWaitQueue" specification="_geTugPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf30wfeqEeChPujbKHHHAw" name="job" type="_gcP5APeqEeChPujbKHHHAw"/>
+        <language>java</language>
+        <body>waitQueue.add(job);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf30wveqEeChPujbKHHHAw" name="getJobFromWaitQueue" specification="_gcrW0PeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf30w_eqEeChPujbKHHHAw" type="_gcP5APeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return waitQueue.removeFirst();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf4b0PeqEeChPujbKHHHAw" name="getJob" specification="_gcsk8PeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf4b0feqEeChPujbKHHHAw" type="_gcP5APeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if (jobQueue.size() == 1) {&#xD;
+         return jobQueue.removeFirst();&#xD;
+     }&#xD;
+     else if (jobQueue.size() > 1) {&#xD;
+         notifyAll();&#xD;
+         return jobQueue.removeFirst();&#xD;
+     }&#xD;
+     else if (waitQueue.isEmpty()) {&#xD;
+         return null;&#xD;
+     }&#xD;
+     else { // there are jobs in the waitQueue&#xD;
+         try {&#xD;
+             while (waitQueue.size() > 0) {&#xD;
+                 wait();&#xD;
+                 if (jobQueue.size() > 0) {&#xD;
+                     return jobQueue.removeFirst();&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+         catch (InterruptedException e) {&#xD;
+             e.printStackTrace();&#xD;
+         }&#xD;
+     }&#xD;
+     return null;&#xD;
+&#xD;
+ </body>
+      </ownedBehavior>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_gctzEPeqEeChPujbKHHHAw" name="PoolThread" visibility="private">
+        <generalization xmi:id="_ge910PeqEeChPujbKHHHAw" general="_ge6LcPeqEeChPujbKHHHAw"/>
+        <ownedAttribute xmi:id="_gfqZYPeqEeChPujbKHHHAw" name="i" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_gfrAcPeqEeChPujbKHHHAw" value="0"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf4b0veqEeChPujbKHHHAw" name="PoolThread" specification="_gcvoQPeqEeChPujbKHHHAw">
+          <ownedParameter xmi:id="_gf4b0_eqEeChPujbKHHHAw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_gf4b1PeqEeChPujbKHHHAw" type="_gctzEPeqEeChPujbKHHHAw" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.i = i;&#xD;
+     </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf5C4PeqEeChPujbKHHHAw" name="run" specification="_gcw2YfeqEeChPujbKHHHAw">
+          <language>java</language>
+          <body>GenericJob job;&#xD;
+         while (true) {&#xD;
+             job = getJob();&#xD;
+             if (job == null) {&#xD;
+                 break;&#xD;
+             }&#xD;
+             while (true) {&#xD;
+                 boolean doNextStep = job.execute();&#xD;
+                 if (doNextStep == false) {&#xD;
+                     break;&#xD;
+                 }&#xD;
+             }&#xD;
+&#xD;
+         }&#xD;
+     </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_gcvoQPeqEeChPujbKHHHAw" name="PoolThread" method="_gf4b0veqEeChPujbKHHHAw">
+          <eAnnotations xmi:id="_gcwPUPeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_gcwPUfeqEeChPujbKHHHAw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_gcvoQfeqEeChPujbKHHHAw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_gcw2YPeqEeChPujbKHHHAw" type="_gctzEPeqEeChPujbKHHHAw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_gcw2YfeqEeChPujbKHHHAw" name="run" method="_gf5C4PeqEeChPujbKHHHAw"/>
+      </nestedClassifier>
+      <ownedOperation xmi:id="_gcmeUPeqEeChPujbKHHHAw" name="ThreadPool" method="_gf2moPeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_gcnFYPeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_gcnFYfeqEeChPujbKHHHAw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_gcmeUfeqEeChPujbKHHHAw" name="numThreads">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_gcnscPeqEeChPujbKHHHAw" type="_gcjbAPeqEeChPujbKHHHAw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_gcnscfeqEeChPujbKHHHAw" name="activate" method="_gf2mo_eqEeChPujbKHHHAw"/>
+      <ownedOperation xmi:id="_gco6kPeqEeChPujbKHHHAw" name="jobQueueEmpty" method="_gf2mpPeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_gco6kfeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_gco6kveqEeChPujbKHHHAw" key="synchronized"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_gcphoPeqEeChPujbKHHHAw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_gcphofeqEeChPujbKHHHAw" name="waitQueueEmpty" method="_gf3NsPeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_gcqIsPeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_gcqIsfeqEeChPujbKHHHAw" key="synchronized"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_gcqIsveqEeChPujbKHHHAw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_gcrW0PeqEeChPujbKHHHAw" name="getJobFromWaitQueue" method="_gf30wveqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_gcr94PeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_gcr94feqEeChPujbKHHHAw" key="synchronized"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_geU8oPeqEeChPujbKHHHAw" type="_gcP5APeqEeChPujbKHHHAw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_gcsk8PeqEeChPujbKHHHAw" name="getJob" visibility="private" method="_gf4b0PeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_gctMAPeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_gctMAfeqEeChPujbKHHHAw" key="synchronized"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_geU8ofeqEeChPujbKHHHAw" type="_gcP5APeqEeChPujbKHHHAw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_geR5UPeqEeChPujbKHHHAw" name="addJobToJobQueue" method="_gf3NsveqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_geSgYfeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_geSgYveqEeChPujbKHHHAw" key="synchronized"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_geSgYPeqEeChPujbKHHHAw" name="job" type="_gcP5APeqEeChPujbKHHHAw"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_geTugPeqEeChPujbKHHHAw" name="addJobToWaitQueue" method="_gf30wPeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_geTugveqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_geTug_eqEeChPujbKHHHAw" key="synchronized"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_geTugfeqEeChPujbKHHHAw" name="job" type="_gcP5APeqEeChPujbKHHHAw"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gdEYYPeqEeChPujbKHHHAw" name="Work" visibility="package" clientDependency="_gegi0PeqEeChPujbKHHHAw">
+      <ownedAttribute xmi:id="_gftcsPeqEeChPujbKHHHAw" name="id" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfuDwfeqEeChPujbKHHHAw" name="pc" visibility="package" type="_gcTjYPeqEeChPujbKHHHAw"/>
+      <ownedAttribute xmi:id="_gfuq0feqEeChPujbKHHHAw" name="barrier" visibility="package" type="_gb3egPeqEeChPujbKHHHAw" association="_ggITcfeqEeChPujbKHHHAw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rxw_wPeqEeChPujbKHHHAw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rxxm0PeqEeChPujbKHHHAw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_gfvR4feqEeChPujbKHHHAw" name="iters" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_gfv48PeqEeChPujbKHHHAw" value="0"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf6RAPeqEeChPujbKHHHAw" name="Work" specification="_geiYAPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf6RAfeqEeChPujbKHHHAw" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_gf6RAveqEeChPujbKHHHAw" name="barrier" type="_gb3egPeqEeChPujbKHHHAw"/>
+        <ownedParameter xmi:id="_gf6RA_eqEeChPujbKHHHAw" type="_gdEYYPeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.pc = Phase.initial;&#xD;
+     this.id = id;&#xD;
+     this.barrier = barrier;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf64EPeqEeChPujbKHHHAw" name="getPhase" specification="_gdICwPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf64EfeqEeChPujbKHHHAw" type="_gcTjYPeqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return pc;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_gf64EveqEeChPujbKHHHAw" name="execute" specification="_gdKfAPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gf64E_eqEeChPujbKHHHAw" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>switch (pc) {&#xD;
+     case initial:&#xD;
+         pc = Phase.compute;&#xD;
+         iters = 1;&#xD;
+         if (!barrier.pass(id, this, iters))&#xD;
+             return false;&#xD;
+         else&#xD;
+             return true;&#xD;
+     case compute:&#xD;
+         if (iters > TPoolBarrier.MAXITERS) { /* compute */&#xD;
+             pc = Phase.terminating;&#xD;
+             return true;&#xD;
+         }&#xD;
+         pc = Phase.copy;&#xD;
+&#xD;
+         if (!barrier.pass(id, this, iters))&#xD;
+             return false;&#xD;
+         else&#xD;
+             return true;&#xD;
+     case copy: /* copy */&#xD;
+         pc = Phase.compute;&#xD;
+         iters++;&#xD;
+         if (!barrier.pass(id, this, iters))&#xD;
+             return false;&#xD;
+         else&#xD;
+             return true;&#xD;
+     case terminating:&#xD;
+         return false;&#xD;
+     }&#xD;
+     return true;&#xD;
+ </body>
+      </ownedBehavior>
+      <interfaceRealization xmi:id="_gegi0PeqEeChPujbKHHHAw" supplier="_gcP5APeqEeChPujbKHHHAw" client="_gdEYYPeqEeChPujbKHHHAw" contract="_gcP5APeqEeChPujbKHHHAw"/>
+      <ownedOperation xmi:id="_gdICwPeqEeChPujbKHHHAw" name="getPhase" method="_gf64EPeqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gekNMPeqEeChPujbKHHHAw" type="_gcTjYPeqEeChPujbKHHHAw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_gdKfAPeqEeChPujbKHHHAw" name="execute" method="_gf64EveqEeChPujbKHHHAw">
+        <ownedParameter xmi:id="_gdLGEPeqEeChPujbKHHHAw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_geiYAPeqEeChPujbKHHHAw" name="Work" method="_gf6RAPeqEeChPujbKHHHAw">
+        <eAnnotations xmi:id="_gei_EfeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_gei_EveqEeChPujbKHHHAw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_geiYAfeqEeChPujbKHHHAw" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_gei_EPeqEeChPujbKHHHAw" name="barrier" type="_gb3egPeqEeChPujbKHHHAw"/>
+        <ownedParameter xmi:id="_gejmIPeqEeChPujbKHHHAw" type="_gdEYYPeqEeChPujbKHHHAw" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ggDa8PeqEeChPujbKHHHAw" name="" memberEnd="_ggDa8feqEeChPujbKHHHAw _gfR-4PeqEeChPujbKHHHAw">
+      <ownedEnd xmi:id="_ggDa8feqEeChPujbKHHHAw" name="" type="_gb3egPeqEeChPujbKHHHAw" association="_ggDa8PeqEeChPujbKHHHAw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ggECAfeqEeChPujbKHHHAw" name="" memberEnd="_ggECAveqEeChPujbKHHHAw _gfh2gfeqEeChPujbKHHHAw">
+      <ownedEnd xmi:id="_ggECAveqEeChPujbKHHHAw" name="" type="_gcWmsPeqEeChPujbKHHHAw" association="_ggECAfeqEeChPujbKHHHAw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ggFQIPeqEeChPujbKHHHAw" name="" memberEnd="_ggFQIfeqEeChPujbKHHHAw _gfidkfeqEeChPujbKHHHAw">
+      <ownedEnd xmi:id="_ggFQIfeqEeChPujbKHHHAw" name="" type="_gcWmsPeqEeChPujbKHHHAw" association="_ggFQIPeqEeChPujbKHHHAw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ggF3MPeqEeChPujbKHHHAw" name="" memberEnd="_ggF3MfeqEeChPujbKHHHAw _gfkSwPeqEeChPujbKHHHAw">
+      <ownedEnd xmi:id="_ggF3MfeqEeChPujbKHHHAw" name="" type="_gcjbAPeqEeChPujbKHHHAw" association="_ggF3MPeqEeChPujbKHHHAw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ggGeQfeqEeChPujbKHHHAw" name="" memberEnd="_ggGeQveqEeChPujbKHHHAw _gfmH8feqEeChPujbKHHHAw">
+      <ownedEnd xmi:id="_ggGeQveqEeChPujbKHHHAw" name="" type="_gcjbAPeqEeChPujbKHHHAw" association="_ggGeQfeqEeChPujbKHHHAw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ggHsYfeqEeChPujbKHHHAw" name="" memberEnd="_ggHsYveqEeChPujbKHHHAw _gfokMPeqEeChPujbKHHHAw">
+      <ownedEnd xmi:id="_ggHsYveqEeChPujbKHHHAw" name="" type="_gcjbAPeqEeChPujbKHHHAw" association="_ggHsYfeqEeChPujbKHHHAw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ggITcfeqEeChPujbKHHHAw" name="" memberEnd="_ggITcveqEeChPujbKHHHAw _gfuq0feqEeChPujbKHHHAw">
+      <ownedEnd xmi:id="_ggITcveqEeChPujbKHHHAw" name="" type="_gdEYYPeqEeChPujbKHHHAw" association="_ggITcfeqEeChPujbKHHHAw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rxw_wfeqEeChPujbKHHHAw" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rxyN4PeqEeChPujbKHHHAw"/>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:id="_gORucPeqEeChPujbKHHHAw">
+      <eAnnotations xmi:id="_gORucfeqEeChPujbKHHHAw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_gOSVgPeqEeChPujbKHHHAw" base_Package="_gN0bcPeqEeChPujbKHHHAw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gcxdcPeqEeChPujbKHHHAw" base_Element="_gcw2YfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Annotations xmi:id="_gcyEgPeqEeChPujbKHHHAw" base_Element="_gcw2YfeqEeChPujbKHHHAw">
+    <annotations xmi:id="_gcyrkPeqEeChPujbKHHHAw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gdJQ4PeqEeChPujbKHHHAw" base_Element="_gdICwPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Annotations xmi:id="_gdJ38PeqEeChPujbKHHHAw" base_Element="_gdICwPeqEeChPujbKHHHAw">
+    <annotations xmi:id="_gdJ38feqEeChPujbKHHHAw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gdLGEfeqEeChPujbKHHHAw" base_Element="_gdKfAPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Annotations xmi:id="_gdMUMPeqEeChPujbKHHHAw" base_Element="_gdKfAPeqEeChPujbKHHHAw">
+    <annotations xmi:id="_gdMUMfeqEeChPujbKHHHAw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_geBaoPeqEeChPujbKHHHAw" base_Element="_geAMgPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_gePdEPeqEeChPujbKHHHAw" base_Element="_geOO8PeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ge49UPeqEeChPujbKHHHAw" base_Element="_ge4WQfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ge6ygPeqEeChPujbKHHHAw" base_Element="_ge6LcPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Array xmi:id="_gfPiofeqEeChPujbKHHHAw" dimensions="1" base_Element="_gfO7kPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfQJsPeqEeChPujbKHHHAw" base_Element="_gfO7kPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfRX0PeqEeChPujbKHHHAw" base_Element="_gfQwwPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfSl8PeqEeChPujbKHHHAw" base_Element="_gfR-4PeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Array xmi:id="_gfT0EPeqEeChPujbKHHHAw" dimensions="1" base_Element="_gfTNAPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfUbIPeqEeChPujbKHHHAw" base_Element="_gfTNAPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Array xmi:id="_gfVCMveqEeChPujbKHHHAw" base_Element="_gfVCMPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfVpQPeqEeChPujbKHHHAw" base_Element="_gfVCMPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Array xmi:id="_gfW3YfeqEeChPujbKHHHAw" dimensions="1" base_Element="_gfWQUPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfXecPeqEeChPujbKHHHAw" base_Element="_gfWQUPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Array xmi:id="_gfYFgveqEeChPujbKHHHAw" base_Element="_gfYFgPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfYskPeqEeChPujbKHHHAw" base_Element="_gfYFgPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfezMPeqEeChPujbKHHHAw" base_Element="_gfdlEPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfgBUPeqEeChPujbKHHHAw" base_Element="_gfezMfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfh2gPeqEeChPujbKHHHAw" base_Element="_gfgoYPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfidkPeqEeChPujbKHHHAw" base_Element="_gfh2gfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfjEoPeqEeChPujbKHHHAw" base_Element="_gfidkfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Generics xmi:id="_gfk50PeqEeChPujbKHHHAw" genericsValue="GenericJob" base_Element="_gfkSwPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfmH8PeqEeChPujbKHHHAw" base_Element="_gfkSwPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Generics xmi:id="_gfmvAPeqEeChPujbKHHHAw" genericsValue="GenericJob" base_Element="_gfmH8feqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfnWEfeqEeChPujbKHHHAw" base_Element="_gfmH8feqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Array xmi:id="_gfpLQPeqEeChPujbKHHHAw" dimensions="1" base_Element="_gfokMPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfpLQfeqEeChPujbKHHHAw" base_Element="_gfokMPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfpyUfeqEeChPujbKHHHAw" base_Element="_gfpyUPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfrAcfeqEeChPujbKHHHAw" base_Element="_gfqZYPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfuDwPeqEeChPujbKHHHAw" base_Element="_gftcsPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfuq0PeqEeChPujbKHHHAw" base_Element="_gfuDwfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfvR4PeqEeChPujbKHHHAw" base_Element="_gfuq0feqEeChPujbKHHHAw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_gfv48feqEeChPujbKHHHAw" base_Element="_gfvR4feqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ggECAPeqEeChPujbKHHHAw" base_Element="_ggDa8PeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ggEpEPeqEeChPujbKHHHAw" base_Element="_ggECAfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ggFQIveqEeChPujbKHHHAw" base_Element="_ggFQIPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ggGeQPeqEeChPujbKHHHAw" base_Element="_ggF3MPeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ggHFUPeqEeChPujbKHHHAw" base_Element="_ggGeQfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ggITcPeqEeChPujbKHHHAw" base_Element="_ggHsYfeqEeChPujbKHHHAw"/>
+  <UMLLabProfile:Reference xmi:id="_ggI6gPeqEeChPujbKHHHAw" base_Element="_ggITcfeqEeChPujbKHHHAw"/>
+</xmi:XMI>
